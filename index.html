@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Formulário simples para questões de multipla escolha com validação básica.">
+    <title>formulario simples de questão</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    <header>
+        <h1 style="color: blue; font-size: 70px;"> Questões interativas </h1>
+        <h2 style="color: white;"> Aqui você pode responder a questões, e veja sua pontuação. </h2>
+    </header>
+    <main>
+        <!-- quetão 1 matematica-->
+     <section>
+       <h2> 5 questões apenas de <strong style="color: black;">Matemática</strong></h2>
+      <h2>1.Uma loja dá 25% de desconto em um produto de R$ 240,00. Qual o valor pago?</h2>
+      <form> 
+        <input type="radio" name="questão1" value="R$ 60,00" id="Q1a"
+        name="questão1">
+        <label for="Q1a">R$ 60,00</label><br>
+         <input type="radio" name="questão1" value="R$ 100,00" id="Q1b"
+        name="questão1">
+        <label for="Q1a">R$ 100,00</label><br>
+        <input type="radio" name="questão1" value="R$ 200,00" id="Q1c"
+        name="questão1">
+        <label for="Q1a">R$ 200,00</label><br>
+         <input type="radio" name="questão1" value="R$ 220,00" id="Q1d"
+        name="questão1">
+        <label for="Q1a">R$ 220,00</label><br>
+         <input type="radio" name="questão1" value="R$ 230,00" id="Q1e"
+        name="questão1">
+        <label for="Q1a">R$ 230,00</label><br>
+      </form>
+        <h2>2.Qual o valor de x em 3x -7 = 2x + 8?</h2>
+      <form> 
+        <input type="radio" name="questão2" value="-1" id="Q2a"
+        name="questão2">
+        <label for="Q2a">-1</label><br>
+         <input type="radio" name="questão2" value="0" id="Q2b"
+        name="questão" value="0">0</label><br>
+        <input type="radio" name="questão2" value="5" id="Q2c"
+        name="questão2">
+        <label for="Q2a">5</label><br>
+         <input type="radio" name="questão2" value="15"id="Q2d"
+        name="questão2">
+        <label for="Q2a">15</label><br>
+         <input type="radio" name="questão2" value="18" id="Q2e"
+        name="questão2">
+        <label for="Q2a">18</label><br>
+      </form>
+      <h2>3.A área de um círculo de raio 3 é:</h2>
+      <form> 
+        <input type="radio" name="questão3" value="9π" id="Q3a"
+        name="questão3">
+        <label for="Q3a">9π</label><br>
+         <input type="radio" name="questão3" value="6π" id="Q3b"
+        name="questão3">
+        <label for="Q3b">6π</label><br>
+        <input type="radio" name="questão3" value="12π" id="Q3c"
+        name="questão3">
+        <label for="Q3c">12π</label><br>
+         <input type="radio" name="questão3" value="18π"id="Q3d"
+        name="questão3">
+        <label for="Q3d">18π</label><br>
+         <input type="radio" name="questão3" value="27π" id="Q3e"
+        name="questão3">
+        <label for="Q3e">27π</label><br>
+      </form>
+      <h2>4.Um número é dividido por 2, depois somado com 3, resultando em 11. O número é:</h2>
+      <form>
+        <input type="radio" name="questão4" value="16" id="Q4a"
+        name="questão4">
+        <label for="Q4a">16</label><br>
+         <input type="radio" name="questão4" value="18" id="Q4b"
+        name="questão4">
+        <label for="Q4b">18</label><br>
+        <input type="radio" name="questão4" value="20" id="Q4c"
+        name="questão4">
+        <label for="Q4c">20</label><br>
+         <input type="radio" name="questão4" value="22"id="Q4d"
+        name="questão4">
+        <label for="Q4d">22</label><br>
+         <input type="radio" name="questão4" value="24" id="Q4e"
+        name="questão4">
+        <label for="Q4e">24</label><br>
+      </form>
+      <h2>5.O gráfico de uma função do 1º grau passa pelos pontos (0,2) e (2,6). Qual é a função?</h2>
+      <form> 
+        <input type="radio" name="questão5" value="f(x) = 2x + 2" id="Q5a">
+        <label for="Q5a">f(x) = 2x + 2</label><br>
+        <input type="radio" name="questão5" value="f(x) = 2x + 4" id="Q5b">
+        <label for="Q5b">f(x) = 2x + 4</label><br>
+        <input type="radio" name="questão5" value="f(x) = 2x + 6" id="Q5c">
+        <label for="Q5c">f(x) = 2x + 6</label><br>
+        <input type="radio" name="questão5" value="f(x) = 2x + 8" id="Q5d">
+        <label for="Q5d">f(x) = 2x + 8</label><br>
+        <input type="radio" name="questão5" value="f(x) = 2x + 10" id="Q5e">
+        <label for="Q5e">f(x) = 2x + 10</label><br>
+        </form>
+    </section>
+     <section>
+      <h2> 5 questões apenas de <strong style="color: black;">Português</strong></h2>
+      <h2>1.Em “O tempo passou depressa”, o sujeito é:</h2>
+        <form>
+            <input type="radio" name="questão1" value="Inexistente" id="Q1a">
+            <label for="Q1a">Inexistente</label><br>
+            <input type="radio" name="questão1" value="Indeterminado" id="Q1b">
+            <label for="Q1b">Indeterminado</label><br>
+            <input type="radio" name="questão1" value="Oculto" id="Q1c">
+            <label for="Q1c">Oculto</label><br>
+            <input type="radio" name="questão1" value="Simples" id="Q1d">
+            <label for="Q1d">Simples</label><br>
+            <input type="radio" name="questão1" value="Composto" id="Q1e">
+            <label for="Q1e">Composto</label><br>
+            </form>
+            <h2>2.A figura de linguagem em "O mar estava bravo, rugia como leão" é:</h2>
+        <form>
+            <input type="radio" name="questão2" value="Metáfora" id="Q2a">
+            <label for="Q2a">Metáfora</label><br>
+            <input type="radio" name="questão2" value="Comparação" id="Q2b">
+            <label for="Q2b">Comparação</label><br>
+            <input type="radio" name="questão2" value="Metonímia" id="Q2c">
+            <label for="Q2c">Metonímia</label><br>
+            <input type="radio" name="questão2" value="Hipérbole" id="Q2d">
+            <label for="Q2d">Hipérbole</label><br>
+            <input type="radio" name="questão2" value="Personificação" id="Q2e">
+            <label for="Q2e">Personificação</label><br>
+        </form>
+        <h2>3.Aponte o erro gramatical:</h2>
+        <form>
+   <input type="radio" name ="questão3" value="Ele viu ela ontem." id="Q3a">
+    <label for="Q3a">Ele viu ela ontem.</label><br>
+    <input type="radio" name ="questão3" value=" Faz dez anos que não o vejo." id="Q3b">
+    <label for="Q3b"> Faz dez anos que não o vejo.</label><br>
+    <input type="radio" name ="questão3" value="Haviam muitas pessoas no local." id="Q3c">
+    <label for="Q3c">Haviam muitas pessoas no local.</label><br>
+    <input type="radio" name ="questão3" value="Chegou atrasado, como sempre." id="Q3d">
+    <label for="Q3d">Chegou atrasado, como sempre.</label><br>
+    <input type="radio" name="questão3"  value=" Eles se entreolharam." id="Q3e">
+    <label for="Q3e"> Eles se entreolharam.</label><br>
+        </form>
+        <h2>4.Qual a classe da palavra “trabalho” na frase “O trabalho é cansativo”?</h2>
+        <form>
+            <input type="radio" name="questão4" value="Substantivo" id="Q4a">
+            <label for="Q4a">Substantivo</label><br>
+            <input type="radio" name="questão4" value="Adjetivo" id="Q4b">
+            <label for="Q4b">Adjetivo</label><br>
+            <input type="radio" name="questão4" value="Verbo" id="Q4c">
+            <label for="Q4c">Verbo</label><br>
+            <input type="radio" name="questão4" value="Advérbio" id="Q4d">
+            <label for="Q4d">Advérbio</label><br>
+            <input type="radio" name="questão4" value="Pronome" id="Q4e">
+            <label for="Q4e">Pronome</label><br>
+        </form>
+        <h2>5.“Não só estudava, como também trabalhava”. A conjunção como também é:</h2>
+        <form>
+            <input type="radio" name="questão5" value="Conjunção coordenativa" id="Q5a">
+            <label for="Q5a">Conjunção coordenativa</label><br>
+            <input type="radio" name="questão5" value="Conjunção subordinativa" id="Q5b">
+            <label for="Q5b">Conjunção subordinativa</label><br>
+            <input type="radio" name="questão5" value="Conjunção aditiva" id="Q5c">
+            <label for="Q5c">Conjunção aditiva</label><br>
+            <input type="radio" name="questão5" value="Conjunção adversativa" id="Q5d">
+            <label for="Q5d">Conjunção adversativa</label><br>
+            <input type="radio" name="questão5" value="Conjunção explicativa" id="Q5e">
+            <label for="Q5e">Conjunção explicativa</label><br>
+        </form>
+        </section>
+     <section>
+         <h2> 3 questões apenas de <strong style="color: black;">Física</strong></h2>
+            <h2>1.Um carro parte do repouso e atinge 20 m/s em 10 s. A aceleração é:</h2> 
+            <fornm>
+            <input type="radio" name="questão1" value="2 m/s²" id="Q1a">
+            <label for="Q1a">2 m/s²</label><br>
+            <input type="radio" name="questão1" value="1 m/s²" id="Q1b">
+            <label for="Q1b">1 m/s²</label><br>
+            <input type="radio" name="questão1" value="3 m/s²" id="Q1c">
+            <label for="Q1c">3 m/s²</label><br>
+            <input type="radio" name="questão1" value="4 m/s²" id="Q1d">
+            <label for="Q1d">4 m/s²</label><br>
+            <input type="radio" name="questão1" value="5 m/s²" id="Q1e">
+            <label for="Q1e">5 m/s²</label><br>
+        </form>
+        <h2>2.A unidade de energia no SI é:</h2>
+            <input type="radio" name="questão2" value="Joule" id="Q2a">
+            <label for="Q2a">Joule</label><br>
+            <input type="radio" name="questão2" value="Newton" id="Q2b">
+            <label for="Q2b">Newton</label><br>
+            <input type="radio" name="questão2" value="Watt" id="Q2c">
+            <label for="Q2c">Watt</label><br>
+            <input type="radio" name="questão2" value="Pascal" id="Q2d">
+            <label for="Q2d">Pascal</label><br>
+            <input type="radio" name="questão2" value="Volt" id="Q2e">
+            <label for="Q2e">Volt</label><br>
+        </form>
+        <h2>3.O trabalho é nulo quando:</h2> 
+        <form>
+            <input type="radio" name="questão3" value="Força e deslocamento são perpendiculares" id="Q3a">
+            <label for="Q3a">Força e deslocamento são perpendiculares</label><br>
+            <input type="radio" name="questão3" value="Força é nula" id="Q3b">
+            <label for="Q3b">Força é nula</label><br>
+            <input type="radio" name="questão3" value="Força e deslocamento têm mesma direção" id="Q3c">
+            <label for="Q3c">Força e deslocamento têm mesma direção</label><br>
+            <input type="radio" name="questão3" value=" Não há aceleração" id="Q3d">
+            <label for="Q3d"> Não há aceleração</label><br>
+            <input type="radio" name="questão3" value="Força é constante" id="Q3e">
+            <label for="Q3e">Força é constante</label><br>
+        </form>
+     </section>
+     <section>
+         <h2> 3 questões apenas de <strong style="color: black;">Quimica</strong></h2>
+         <h2>1.Qual é o número atômico do carbono?</h2> 
+         <form>
+            <input type="radio" name="questão1" value="6" id="Q1a">
+            <label for="Q1a">6</label><br>
+            <input type="radio" name="questão1" value="12" id="Q1b">
+            <label for="Q1b">12</label><br>
+            <input type="radio" name="questão1" value="14" id="Q1c">
+            <label for="Q1c">14</label><br>
+            <input type="radio" name="questão1" value="8" id="Q1d">
+            <label for="Q1d">8</label><br>
+            <input type="radio" name="questão1" value="16" id="Q1e">
+            <label for="Q1e">16</label><br>
+         </form>       
+         <h2>2.O número atômico indica:</h2>
+            <form>
+                <input type="radio" name="questão2" value="Número de prótons no núcleo" id="Q2a">
+                <label for="Q2a">Número de prótons no núcleo</label><br>
+                <input type="radio" name="questão2" value="Número de nêutrons no núcleo" id="Q2b">
+                <label for="Q2b">Número de nêutrons no núcleo</label><br>
+                <input type="radio" name="questão2" value="Número de elétrons na camada de valência" id="Q2c">
+                <label for="Q2c">Número de elétrons na camada de valência</label><br>
+                <input type="radio" name="questão2" value="Número total de partículas no núcleo" id="Q2d">
+                <label for="Q2d">Número total de partículas no núcleo</label><br>
+                <input type="radio" name="questão2" value="Número de camadas eletrônicas" id="Q2e">
+                <label for="Q2e">Número de camadas eletrônicas</label><br>
+            </form>
+            <h2>3.A ligação química no H₂O é:</h2>
+            <form>
+                <input type="radio" name="questão3" value="Iônica" id="Q3a">
+                <label for="Q3a">Iônica</label><br>
+                <input type="radio" name="questão3" value="Covalente" id="Q3b">
+                <label for="Q3b">Covalente</label><br>
+                <input type="radio" name="questão3" value="Metálica" id="Q3c">
+                <label for="Q3c">Metálica</label><br>
+                <input type="radio" name="questão3" value="Van der Waals" id="Q3d">
+                <label for="Q3d">Van der Waals</label><br>
+                <input type="radio" name="questão3" value="Dipolo-dipolo" id="Q3e">
+                <label for="Q3e">Dipolo-dipolo</label><br>
+            </form>
+     </section>
+     <section>
+         <h2> 3 questões apenas de <strong style="color: black;">Biologia</strong></h2>
+         <h2>1.Qual é a unidade básica da vida?</h2>
+         <form>
+            <input type="radio" name="questão1" value="Célula" id="Q1a">
+            <label for="Q1a">Célula</label><br>
+            <input type="radio" name="questão1" value="Tecido" id="Q1b">
+            <label for="Q1b">Tecido</label><br>
+            <input type="radio" name="questão1" value="Órgão" id="Q1c">
+            <label for="Q1c">Órgão</label><br>
+            <input type="radio" name="questão1" value="Sistema" id="Q1d">
+            <label for="Q1d">Sistema</label><br>
+            <input type="radio" name="questão1" value="Organismo" id="Q1e">
+            <label for="Q1e">Organismo</label><br>
+         </form>
+         <h2>2.O DNA é responsável por:</h2>
+         <form>
+            <input type="radio" name="questão2" value="Armazenar informações genéticas" id="Q2a">
+            <label for="Q2a">Armazenar informações genéticas</label><br>
+            <input type="radio" name="questão2" value="Produzir energia celular" id="Q2b">
+            <label for="Q2b">Produzir energia celular</label><br>
+            <input type="radio" name="questão2" value="Transportar oxigênio no sangue" id="Q2c">
+            <label for="Q2c">Transportar oxigênio no sangue</label><br>
+            <input type="radio" name="questão2" value="Regular temperatura corporal" id="Q2d">
+            <label for="Q2d">Regular temperatura corporal</label><br>
+            <input type="radio" name="questão2" value="Defender o organismo contra patógenos" id="Q2e">
+            <label for="Q2e">Defender o organismo contra patógenos</label><br>
+         </form>
+         <h2>3.As bases do DNA são:</h2>
+         <form>
+            <input type="radio" name="questão3" value="Adenina, Timina, Citosina, Guanina" id="Q3a">
+            <label for="Q3a">Adenina, Timina, Citosina, Guanina</label><br>
+            <input type="radio" name="questão3" value="Adenina, Uracila, Citosina, Guanina" id="Q3b">
+            <label for="Q3b">Adenina, Uracila, Citosina, Guanina</label><br>
+            <input type="radio" name="questão3" value="Adenina, Timina, Citosina, Uracila" id="Q3c">
+            <label for="Q3c">Adenina, Timina, Citosina, Uracila</label><br>
+            <input type="radio" name="questão3" value="Adenina, Timina, Citosina, Xantina" id="Q3d">
+            <label for="Q3d">Adenina, Timina, Citosina, Xantina</label><br>
+            <input type="radio" name="questão3" value="Adenina, Timina, Citosina, Pirimidina" id="Q3e">
+            <label for="Q3e">Adenina, Timina, Citosina, Pirimidina</label><br>
+         </form>
+        </section>
+        <!-- tabela de pontuação-->
+         <section>
+            <h2><strong style="color: black;">Pontuação</strong></h2>
+            <details>
+                <summary>Clique aqui para ver as respostas</summary>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Materia</th>
+                        <th>Questão</th>
+                        <th>Resposta Correta</th>
+                        <th>Pontuação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Matemática</td>
+                        <td>1</td>
+                        <td>R$ 60,00</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Matemática</td>
+                        <td>2</td>
+                        <td>5</td>
+                        <td>20</td>
+                    </tr>
+                    <tr> 
+                        <td>Matemática</td>
+                        <td>3</td>
+                        <td>9π</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Matemática</td>
+                        <td>4</td>
+                        <td>16</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Matemática</td>
+                        <td>5</td>
+                        <td>f(x) = 2x + 2</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Português</td>
+                        <td>1</td>
+                        <td>Inexistente</td>
+                        <td>20</td>
+                        </tr>
+                    <tr>
+                        <td>Português</td>
+                        <td>2</td>
+                        <td>Comparação</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Português</td>
+                        <td>3</td>
+                        <td>Haviam muitas pessoas no local.</td>
+                        <td>20</td>
+                        </tr>
+                    <tr>
+                        <td>Português</td>
+                        <td>4</td>
+                        <td>Substantivo</td>
+                        <td>20</td>
+                        </tr>
+                    <tr>
+                        <td>Português</td>
+                        <td>5</td>
+                        <td>Conjunção coordenativa</td>
+                        <td>20</td>
+                        </tr>
+                    <tr>
+                        <td>Física</td>
+                        <td>1</td>
+                        <td>2 m/s²</td>
+                        <td>20</td>
+                        </tr>
+                    <tr>
+                        <td>Física</td>
+                        <td>2</td>
+                        <td>Joule</td>
+                        <td>20</td>
+                        </tr>
+                    <tr>
+                        <td>Física</td>
+                        <td>3</td>
+                        <td>Força e deslocamento são perpendiculares</td>
+                        <td>20</td>
+                        </tr>
+                    <tr>
+                        <td>Quimica</td>
+                        <td>1</td>
+                        <td>6</td>
+                        <td>20</td>
+                        </tr>
+                    <tr>
+                        <td>Quimica</td>
+                        <td>2</td>
+                        <td>Número de prótons no núcleo</td>
+                        <td>20</td>
+                        </tr>
+                    <tr>
+                        <td>Quimica</td>
+                        <td>3</td>
+                        <td>Covalente</td>
+                        <td>20</td>
+                        </tr>
+                    <tr>
+                        <td>Biologia</td>
+                        <td>1</td>
+                        <td>Célula</td>
+                        <td>20</td>
+                        </tr>
+                    <tr>
+                        <td>Biologia</td>
+                        <td>2</td>
+                        <td>Armazenar informações genéticas</td>
+                        <td>20</td>
+                        </tr>
+                    <tr>
+                        <td>Biologia</td>
+                        <td>3</td>
+                        <td>Adenina, Timina, Citosina, Guanina</td>
+                        <td>20</td>
+                        </tr>
+                    </tbody>
+                <tfoot>
+                </tfoot>
+               </table>
+                </details>
+            </section>
+
+           <!--formulario de feedback-->
+           <section>
+           <h2>Deixe aqui o seu feedback</h2>
+           <fieldset>
+            <legend>Informações de conato</legend>
+           <form> 
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required><br>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Digite seu email" required><br>
+            <label for="comentarios">Comentarios</label><br>
+            <textarea name="comentarios" id="comentarios" rows="4" cols="50" placeholder="digite aqui"></textarea>
+            <button on click="alertr ('FEEDBACK ENVIADO')">Envie Aqui!</button>
+           </form>
+           </fieldset>
+           </section>
+    </main>
+
+    <footer>
+        <p>&copy Questões. Todos os direitos reservados.</p>
+        <p> <a href="https://github.com/naomialves" target="_blank">Naomi</a></p>
+    </footer>
+ </body>
+ </html>
